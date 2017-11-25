@@ -1,0 +1,77 @@
+[
+	{
+		"uuid": "3646ae97-9a4e-40fd-ba9e-b6089db6566f",
+		"name": "Empty house",
+		"description": "If the given house is empty",
+		"service": "house",
+		"function": "isEmpty",
+		"params": [
+			{
+				"name": "House",
+				"variablename": "house",
+				"path": "/house"
+			}
+		]
+	},
+	{
+		"uuid": "dc1fcad5-2bc1-40f0-98f5-5ff3e081f375",
+		"name": "Not empty house",
+		"description": "If the given house is not empty",
+		"service": "house",
+		"function": "isNotEmpty",
+		"params": [
+			{
+				"name": "House",
+				"variablename": "house",
+				"path": "/house"
+			}
+		]
+	},
+ 	{		
+		"uuid": "88aa9c2d-efe8-4c84-9287-1e9129fb1f72",
+		"name": "Night",
+		"description": "If it's night at the given house",
+		"service": "sun",
+		"function": "isItNight",
+		"params": [
+			{
+				"name": "House",
+				"variablename": "house",
+				"path": "/house"
+			}
+		]
+	},
+	{
+		"uuid": "5927e191-c874-405b-9bd9-9e7551f696c5",
+		"name": "Day",
+		"description": "If it's day at the given house",
+		"service": "sun",
+		"function": "isItDay",
+		"params": [
+			{
+				"name": "House",
+				"variablename": "house",
+				"path": "/house"
+			}
+		]
+	},
+		{
+		"uuid": "e4b2a301-9d54-49e3-9012-2121ea4d9ab7",
+		"name": "User present",
+		"description": "If a user is present in a given house.",
+		"service": "house",
+		"function": "isUserAtHome",
+		"params": [
+			{
+				"name": "House",
+				"variablename": "house",
+				"path": "/house"
+			},
+		        {
+         			"name": "User",
+         			"variablename": "user",
+         			"path": "/user"
+			}
+		]
+	}
+]

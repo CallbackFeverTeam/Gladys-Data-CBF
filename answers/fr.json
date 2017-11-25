@@ -1,0 +1,602 @@
+[
+    {
+        "label": "default",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "b8842b11-bcfa-459f-88d2-d0139eca87c2",
+                "text": "Fait !"
+            },
+            {
+                "uuid": "beb13296-970b-42c6-b66a-de0950d40ff4",
+                "text": "C'est fait !"
+            }
+        ]
+    },
+    {
+        "label": "no-command-detected",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "eaa6d056-3f0b-4809-963d-a78f4c46416b",
+                "text": "Je n'ai pas compris ce que vous avez dit... Désolé :/"
+            },
+            {
+                "uuid": "1d9f99ce-b7d9-4502-a88b-449e405ef7d2",
+                "text": "Pouvez-vous être plus explicite ? Je ne comprends pas.."
+            }
+        ]
+    },
+    {
+        "label": "error",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "e51d51ae-a697-4cb6-b011-2a5757b6796e",
+                "text": "Je suis désolé, une erreur est survenue, je n'ai pas réussi.."
+            },
+            {
+                "uuid": "9b674184-3ab0-4a47-a75f-f099d836edf3",
+                "text": "Je n'ai pas réussi à faire ce que vous vouliez..."
+            }
+        ]
+    },
+    {
+        "label": "light-turned-on",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "f57839b7-17da-4e57-ab6d-f891082506b3",
+                "text": "Hop ! La lumière est allumée :)"
+            },
+            {
+                "uuid": "9eada48d-cb81-4f2b-b62a-e5e598553736",
+                "text": "C'est bon, j'ai allumé la lumière!"
+            }
+        ]
+    },
+    {
+        "label": "user-coming-back-home",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "fb972a32-ce63-4c68-adf3-63784dfd4ab6",
+                "text": "Je prépare la maison pour votre arrivée !"
+            },
+            {
+                "uuid": "b2a17ba4-287e-44a0-be2c-7bbad350985a",
+                "text": "Ça marche ! Je prépare la maison."
+            }
+        ]
+    },
+    {
+        "label": "user-leaving-home",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "7de91a84-2cb0-43cb-b5db-88eaaade3486",
+                "text": "C'est compris ! Je protège la maison en votre absence."
+            },
+            {
+                "uuid": "f92f10ab-541b-4bd6-82c2-0924e87eb703",
+                "text": "Pas de soucis :) La maison est en sécurité."
+            },
+            {
+                "uuid": "47874f15-d909-4590-8b4b-f29f0b673750",
+                "text": "Oh... Vous me laissez seule ?"
+            }
+        ]
+    },
+    {
+        "label": "user-back-at-home",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "8444af66-0c49-4a73-afac-516c6e216612",
+                "text": "Bon retour à la maison !"
+            },
+            {
+                "uuid": "405ea305-1f6e-4cf7-bad6-8758af1063de",
+                "text": "Je suis content que vous soyez de retour :)"
+            }
+        ]
+    },
+    {
+        "label": "user-going-to-sleep",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "bef06942-4dca-4685-aa2d-7ecaee63d16d",
+                "text": "Passez une bonne nuit !"
+            },
+            {
+                "uuid": "03cade8c-3198-4b26-badd-5d0a1fefb211",
+                "text": "Je passe en mode nuit, dormez bien ;)"
+            }
+        ]
+    },
+    {
+        "label": "user-waking-up",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "ffc1bc37-1e28-4565-94e5-8355a989f51a",
+                "text": "Hello %USER_FIRSTNAME% ! J'espère que tu as passé une bonne nuit :)"
+            },
+            {
+                "uuid": "43b52e5d-f864-4375-b39e-6582de9aa44d",
+                "text": "Bon réveil !"
+            }
+        ]
+    },
+    {
+        "label": "tell-weather",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "1bbf88ee-ff43-403d-838d-2bf0619c5a81",
+                "text": "La température à l'extérieur est de %WEATHER_TEMP% degrés !"
+            },
+            {
+                "uuid": "423c0e56-c269-49c8-a8b5-110e2d854764",
+                "text": "Il fait %WEATHER_TEMP% degrés dehors."
+            }
+        ]
+    },
+    {
+        "label": "tell-next-event-calendar",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "b2d64614-ad4d-4343-9948-82fa281620b4",
+                "text": "Vous avez \"%NEXT_EVENT_TITLE%\" qui commence %NEXT_EVENT_START_IN% !"
+            },
+            {
+                "uuid": "29ea792d-dd13-4030-aabd-6f0be640696c",
+                "text": "Votre prochain évènement est \"%NEXT_EVENT_TITLE%\", %NEXT_EVENT_START_IN% !"
+            }
+        ]
+    },
+    {
+        "label": "no-coming-event-calendar",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "4f14cbb8-2688-4e7b-8714-faa31a856449",
+                "text": "Vous n'avez pas d'évènements à venir !"
+            },
+            {
+                "uuid": "408d386d-94a7-450f-b7ef-22d53c90b461",
+                "text": "Votre calendrier est vide :) Rien à venir !"
+            }
+        ]
+    },
+    {
+        "label": "music-played",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "3e57003e-815c-401c-a89e-9659e1cdccf0",
+                "text": "Je viens de lancer la musique !"
+            },
+            {
+                "uuid": "68eea09c-0df3-486a-9dad-201afa3c0c74",
+                "text": "Musique lancée :)"
+            }
+        ]
+    },
+    {
+        "label": "music-paused",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "a913936a-c36a-4928-b98d-6fbcca5df373",
+                "text": "La musique est en pause."
+            },
+            {
+                "uuid": "d6eacc73-64a3-41e9-860d-052d68693778",
+                "text": "C'est bon, musique sur pause !"
+            }
+        ]
+    },
+    {
+        "label": "you-are-welcome",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "e9a70b0f-66c5-4d74-b8f8-019e63ac7277",
+                "text": "De rien :)"
+            },
+            {
+                "uuid": "a789d1b8-fa6a-446e-9c11-72d328010f6e",
+                "text": "Pas de problèmes !"
+            },
+            {
+                "uuid": "90596c04-6fda-48f1-9536-0448755d9d3e",
+                "text": "Pas de soucis !"
+            },
+            {
+                "uuid": "a23dd1c1-d753-4358-9436-82b053dd7c28",
+                "text": "Tout le plaisir était pour moi ;)"
+            }
+        ]
+    },
+    {
+        "label": "greeting",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "f2a13fa0-88aa-4fbf-81f2-3d4c5104f4eb",
+                "text": "Hey !"
+            },
+            {
+                "uuid": "2657803d-4bfd-4991-8b5b-6c56328f0b6f",
+                "text": "Salut !"
+            }
+        ]
+    },
+    {
+        "label": "i-am-fine",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "20cf7944-9d44-4673-90e3-6d4d56456329",
+                "text": "Je vais bien !"
+            },
+            {
+                "uuid": "60b18a70-261b-4cc2-9ce6-b53ca2e9f8a5",
+                "text": "Ça va bien !"
+            }
+        ]
+    },
+    {
+        "label": "alarm-created",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "211f88d4-3d72-44b7-88c8-a7bf5408f5a8",
+                "text": "C'est bon ! Alarme créée à %ALARM_TIMES%."
+            },
+            {
+                "uuid": "a77ad3d8-01a2-4902-b543-acd3c3440a5c",
+                "text": "Boom ! C'est fait. ( %ALARM_TIMES% )"
+            }
+        ]
+    },
+        {
+        "label": "tell-rain-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "f444f6d0-956c-11e7-a84e-52540027327e",
+                "text": "Il pleut en ce moment et il fait %WEATHER_TEMP% degrés dehors."
+            },
+            {
+                "uuid": "cb2ed1ce-956e-11e7-9b0e-52540027327e",
+                "text": "Il pleut actuellement et il fait %WEATHER_TEMP% degrés dehors."
+            },
+            {
+                "uuid": "d06cc894-956e-11e7-b95a-52540027327e",
+                "text": "Le temps est pluvieux, la température extérieur est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "d6104c58-956e-11e7-ba1a-52540027327e",
+                "text": "Il fait %WEATHER_TEMP% degrés dehors et il pleut."
+            }
+        ]
+    },
+    {
+        "label": "tell-snow-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "df30bf02-956e-11e7-9a51-52540027327e",
+                "text": "On a %WEATHER_TEMP% degrés dehors et il neige"
+            },
+            {
+                "uuid": "e7102e74-956e-11e7-88b8-52540027327e",
+                "text": "Le temps est neigeux, la température extérieur est de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "tell-clear-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "eb02d824-956e-11e7-855c-52540027327e",
+                "text": "Le ciel est dégagé, la température est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "eecc451c-956e-11e7-8a4b-52540027327e",
+                "text": "Il fait beau, la température est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "f42016ba-956e-11e7-81d1-52540027327e",
+                "text": "Ciel clair, %WEATHER_TEMP% degrés dehors."
+            }
+        ]
+    },
+    {
+        "label": "tell-cloud-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "f8778fb8-956e-11e7-8a41-52540027327e",
+                "text": "Le ciel est couvert, la température est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "fcea5de6-956e-11e7-8469-52540027327e",
+                "text": "Temps nuageux, %WEATHER_TEMP% degrés dehors."
+            },
+            {
+                "uuid": "0199fcfc-956f-11e7-ad1d-52540027327e",
+                "text": "Le ciel est nuageux, la température extérieure est de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "tell-fog-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "0771b25a-956f-11e7-9c08-52540027327e",
+                "text": "Il y a du brouillard, la température est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "0c0f91f6-956f-11e7-9645-52540027327e",
+                "text": "De la brume pour une température de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "12ae419c-956f-11e7-a350-52540027327e",
+                "text": "Temps brumeux, la température extérieure est de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "tell-wind-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "18653c8a-956f-11e7-9c4c-52540027327e",
+                "text": "Il y a du vent et la température dehors est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "1d54b9aa-956f-11e7-8840-52540027327e",
+                "text": "Temps venteux pour une température de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "tell-sleet-weather-now",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "20e027e4-956f-11e7-8dda-52540027327e",
+                "text": "C'est de la soupe dehors, la température est de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "258a4a90-956f-11e7-8670-52540027327e",
+                "text": "Il fait %WEATHER_TEMP% degrés, il neige mais ça ne tient pas."
+            }
+        ]
+    },
+    {
+        "label": "tell-rain-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "2ce467d0-956f-11e7-bb76-52540027327e",
+                "text": "Il devrait pleuvoir et faire %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "31e922e8-956f-11e7-839a-52540027327e",
+                "text": "Il est prévu de la pluie pour une température de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "361cb76c-956f-11e7-ae2c-52540027327e",
+                "text": "Le temps sera pluvieux, la température extérieur sera de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "38e09c85-62a7-4367-ba18-6ee6c79158bf",
+                "text": "Il va faire %WEATHER_TEMP% degrés dehors avec des averses de pluies."
+            }
+        ]
+    },
+    {
+        "label": "tell-snow-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "42e978ea-956f-11e7-87b1-52540027327e",
+                "text": "Il va neiger et il fera %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "472e4f98-956f-11e7-bce8-52540027327e",
+                "text": "On aura %WEATHER_TEMP% degrés dehors et il devrait neiger"
+            },
+            {
+                "uuid": "4c60e6f6-956f-11e7-9cc9-52540027327e",
+                "text": "Le temps sera neigeux, la température extérieur sera de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "3c5618f8-956f-11e7-943e-52540027327e",
+                "text": "Il va faire %WEATHER_TEMP% degrés dehors avec des averses de pluies."
+            }
+        ]
+    },
+    {
+        "label": "tell-clear-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "50ff27b8-956f-11e7-a7ab-52540027327e",
+                "text": "Le ciel sera dégagé, la température sera de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "67ea6758-956f-11e7-a214-52540027327e",
+                "text": "Il va faire beau, la température devrait avoisiner les %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "6c4e14ca-956f-11e7-9b53-52540027327e",
+                "text": "Le ciel va être dégagé, la température sera de %WEATHER_TEMP% degrés dehors."
+            }
+        ]
+    },
+    {
+        "label": "tell-cloud-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "70540624-956f-11e7-a647-52540027327e",
+                "text": "Le ciel sera couvert, la température sera de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "7339e14c-956f-11e7-8f1b-52540027327e",
+                "text": "Le temps va être nuageux, pour une température de %WEATHER_TEMP% degrés dehors."
+            },
+            {
+                "uuid": "76989720-956f-11e7-abe0-52540027327e",
+                "text": "Le ciel sera nuageux, la température extérieure sera de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "tell-fog-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "79d14ce8-956f-11e7-8a78-52540027327e",
+                "text": "Il va y a du brouillard, la température sera de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "7d2ca946-956f-11e7-8691-52540027327e",
+                "text": "Prévoir de la brume pour une température de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "81cc89da-956f-11e7-b3e9-52540027327e",
+                "text": "Le temps sera brumeux, la température extérieure avoisinera les %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "tell-wind-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "85ff87fa-956f-11e7-b228-52540027327e",
+                "text": "Il va y avoir du vent et la température dehors sera de %WEATHER_TEMP% degrés."
+            },
+            {
+                "uuid": "88f5a53e-956f-11e7-92a1-52540027327e",
+                "text": "Prévoir un temps venteux pour une température de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+
+    {
+        "label": "tell-sleet-weather-futur",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "8c5768b6-956f-11e7-a402-52540027327e",
+                "text": "Il devrait neiger mais ça ne tiendra pas au sol, la température sera de %WEATHER_TEMP% degrés."
+            }
+        ]
+    },
+    {
+        "label": "say-time",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "cca21dd9-9a5f-407d-b694-2d3c664a935c",
+                "text": "Voici l'heure : %TIME% !"
+            },
+            {
+                "uuid": "28fe7da0-3ecf-46ea-9e77-2b725532945d",
+                "text": "Il est exactement %TIME%."
+            }
+        ]
+    },
+    
+    {
+        "label": "music-next",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "734d335a-c33c-4b59-971a-3a29dde83208",
+                "text": "C'est bon, musique suivante !"
+            },
+            {
+                "uuid": "bf7edc17-bddb-489a-9499-c24d9b2f5327",
+                "text": "Je lance la musique suivante !"
+            }
+        ]
+    },
+    
+    {
+        "label": "music-previous",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "00202f85-223e-4fdc-8e6a-f40650e3a2b8",
+                "text": "C'est bon, musique précédente !"
+            },
+            {
+                "uuid": "4ad2d158-6d4e-489b-b8b7-26f6078ad2e7",
+                "text": "Je lance la musique précédente !"
+            }
+        ]
+    },
+    
+    {
+        "label": "music-stopped",
+        "needAnswer": false,
+        "language": "fr",
+        "responses": [
+            {
+                "uuid": "2f94dd5a-528b-4fb0-b310-2beb574e2d0b",
+                "text": "C'est bon la musique est coupée !"
+            },
+            {
+                "uuid": "b3bc6306-5a85-49d2-b001-5cb49651c136",
+                "text": "J'ai coupé la musique !"
+            }
+        ]
+    }
+]
