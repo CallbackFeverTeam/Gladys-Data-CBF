@@ -1,6 +1,7 @@
 [
     {
         "skinId":"1",
+        "active":"false",
         "body":"skin-black",
         "box":"box-black",
         "tab":"nav-tabs-custom-black",
@@ -9,6 +10,7 @@
     },
     {
         "skinId":"2",
+        "active":"false",
         "body":"skin-black-light",
         "box":"box-black",
         "tab":"nav-tabs-custom-black",
@@ -17,6 +19,7 @@
     },
     {
         "skinId":"3",
+        "active":"true",
         "body":"skin-blue",
         "box":"box-primary",
         "tab":"nav-tabs-custom-primary",
@@ -25,6 +28,7 @@
     },
     {
         "skinId":"4",
+        "active":"false",
         "body":"skin-blue-light",
         "box":"box-primary",
         "tab":"nav-tabs-custom-primary",
@@ -33,6 +37,7 @@
     },
     {
         "skinId":"5",
+        "active":"false",
         "body":"skin-green",
         "box":"box-success",
         "tab":"nav-tabs-custom-green",
@@ -41,6 +46,7 @@
     },
     {
         "skinId":"6",
+        "active":"false",
         "body":"skin-green-light",
         "box":"box-success",
         "tab":"nav-tabs-custom-green",
@@ -49,6 +55,7 @@
     },
     {
         "skinId":"7",
+        "active":"false",
         "body":"skin-purple",
         "box":"box-purple",
         "tab":"nav-tabs-custom-purple",
@@ -57,6 +64,7 @@
     },
     {
         "skinId":"8",
+        "active":"false",
         "body":"skin-purple-light",
         "box":"box-purple",
         "tab":"nav-tabs-custom-purple",
@@ -65,6 +73,7 @@
     },
     {
         "skinId":"9",
+        "active":"false",
         "body":"skin-red",
         "box":"box-danger",
         "tab":"nav-tabs-custom-red",
@@ -73,6 +82,7 @@
     },
     {
         "skinId":"10",
+        "active":"false",
         "body":"skin-red-light",
         "box":"box-danger",
         "tab":"nav-tabs-custom-red",
@@ -81,6 +91,7 @@
     },
     {
         "skinId":"11",
+        "active":"false",
         "body":"skin-yellow",
         "box":"box-warning",
         "tab":"nav-tabs-custom-yellow",
@@ -89,6 +100,7 @@
     },
     {
         "skinId":"12",
+        "active":"false",
         "body":"skin-yellow-light",
         "box":"box-warning",
         "tab":"nav-tabs-custom-yellow",
