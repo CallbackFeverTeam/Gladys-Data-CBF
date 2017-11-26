@@ -1,22 +1,6 @@
 [
     {
         "skinId":"1",
-        "body":"skin-black",
-        "box":"box-black",
-        "tab":"nav-tabs-custom-black",
-        "toogle":"toogle-black",
-        "slider":"black"
-    },
-    {
-        "skinId":"2",
-        "body":"skin-black-light",
-        "box":"box-black",
-        "tab":"nav-tabs-custom-black",
-        "toogle":"toogle-black",
-        "slider":"black"
-    },
-    {
-        "skinId":"3",
         "body":"skin-blue",
         "box":"box-primary",
         "tab":"nav-tabs-custom-primary",
@@ -24,12 +8,28 @@
         "slider":"blue"
     },
     {
-        "skinId":"4",
+        "skinId":"2",
         "body":"skin-blue-light",
         "box":"box-primary",
         "tab":"nav-tabs-custom-primary",
         "toogle":"toogle-blue",
         "slider":"blue"
+    },
+    {
+        "skinId":"3",
+        "body":"skin-black",
+        "box":"box-black",
+        "tab":"nav-tabs-custom-black",
+        "toogle":"toogle-black",
+        "slider":"black"
+    },
+    {
+        "skinId":"4",
+        "body":"skin-black-light",
+        "box":"box-black",
+        "tab":"nav-tabs-custom-black",
+        "toogle":"toogle-black",
+        "slider":"black"
     },
     {
         "skinId":"5",
