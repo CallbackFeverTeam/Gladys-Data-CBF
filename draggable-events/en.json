@@ -1,0 +1,27 @@
+[
+    {
+        "title":"Gladys Meetup",
+        "color":"blue",
+        "user":"1"
+    },
+    {
+        "title":"Sport",
+        "color":"red",
+        "user":"1"
+    },
+    {
+        "title":"Hairdresser",
+        "color":"yellow",
+        "user":"1"
+    },
+    {
+        "title":"Rest",
+        "color":"purple",
+        "user":"1"
+    },
+    {
+        "title":"Lunch break",
+        "color":"green",
+        "user":"1"
+    }
+]
