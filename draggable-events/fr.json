@@ -1,27 +1,27 @@
 [
     {
         "title":"Meetup Gladys",
-        "color":"blue",
+        "color":"bg-blue",
         "user":"1"
     },
     {
         "title":"Sport",
-        "color":"red",
+        "color":"bg-red",
         "user":"1"
     },
     {
         "title":"Coiffeur",
-        "color":"yellow",
+        "color":"bg-yellow",
         "user":"1"
     },
     {
         "title":"Repos",
-        "color":"purple",
+        "color":"bg-purple",
         "user":"1"
     },
     {
         "title":"Pause déjeuner",
-        "color":"green",
+        "color":"bg-green",
         "user":"1"
     }
 ]
