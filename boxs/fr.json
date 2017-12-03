@@ -1,15 +1,5 @@
 [
   {
-    "uuid": "81afa4ed-c084-45b3-ba8a-e9e22c9753ae",
-    "title": "Calendrier",
-    "ngcontroller": "calendarCtrl as vm",
-    "html": "<!--The calendar -->                                    <div id=\"calendar\" style=\"width: 100%\"></div>",
-    "footer": "<div class=\"row\"> <div class=\"col-sm-6\"> <!-- Progress bars --> <div class=\"clearfix ng-cloak\" ng-repeat=\"dayevent in vm.dayEvents\" > <span class=\"pull-left\"><b>{{dayevent.start|amDateFormat:'HH:mm'}} - {{dayevent.end|amDateFormat:'HH:mm'}} :</b> {{dayevent.name}}</span> <small class=\"pull-right\"></small> </div> </div><!-- /.col --> </div><!-- /.row --> ",
-    "icon": "fa fa-calendar",
-    "type": "box box-solid bg-green-gradient",
-    "view": "dashboard"
-  },
-  {
     "uuid": "3b78ede7-5ee7-4504-a932-2e9d7c3413f2",
     "title": "Déclencher Event",
     "ngcontroller": "EventBoxCtrl as vm",
