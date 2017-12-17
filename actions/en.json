@@ -4,7 +4,7 @@
 		"service": "deviceType",
 		"function": "exec",
 		"name": "DeviceType exec",
-		"description": "Change the state of a specific device",
+		"description": "Change the state of a specific device.",
 		"params": [
 			{
 				"name": "Device Type",
@@ -22,7 +22,7 @@
 		"service": "script",
 		"function": "exec",
 		"name": "Execute script",
-		"description": "Execute a given script",
+		"description": "Execute a given script.",
 		"params": [
 			{
 				"name": "Script",
@@ -100,7 +100,7 @@
 		"uuid": "8bc231a2-b0f2-4702-bee1-0858851abe73",
 		"service": "utils",
 		"function": "request",
-		"name": "Send an HTTP request",
+		"name": "Send an HTTP request.",
 		"description": "Send a HTTP",
 		"params": [
 			{
@@ -128,5 +128,24 @@
 		"name": "Sync calendars",
 		"description": "Sync all calendars connected to Gladys.",
 		"params": []
+	},
+	{
+		"uuid": "f5d9ac66-f444-4769-9d2f-8c9daae7bd65",
+		"service": "mode",
+		"function": "change",
+		"name": "Mode change",
+		"description": "Change the mode of a house.",
+		"params": [
+			{
+				"name": "Code",
+				"variablename": "mode",
+				"path" : "/mode"
+			},
+			{
+				"name": "House",
+				"variablename": "house",
+				"path" : "/house"
+			}
+		]
 	}
 ]

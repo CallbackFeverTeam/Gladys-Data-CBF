@@ -22,7 +22,7 @@
 		"service": "script",
 		"function": "exec",
 		"name": "Exécute un script",
-		"description": "Exécute un script donné en paramètre",
+		"description": "Exécute un script donné en paramètre.",
 		"params": [
 			{
 				"name": "Script",
@@ -128,5 +128,24 @@
 		"name": "Synchronise les calendriers",
 		"description": "Synchronise tous les calendriers connectés à Gladys.",
 		"params": []
+	},
+	{
+		"uuid": "f5d9ac66-f444-4769-9d2f-8c9daae7bd65",
+		"service": "mode",
+		"function": "change",
+		"name": "Changement de mode",
+		"description": "Change le mode d'une maison.",
+		"params": [
+			{
+				"name": "Code",
+				"variablename": "mode",
+				"path" : "/mode"
+			},
+			{
+				"name": "Maison",
+				"variablename": "house",
+				"path" : "/house"
+			}
+		]
 	}
 ]

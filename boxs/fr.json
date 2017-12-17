@@ -1,7 +1,7 @@
 [
   {
     "uuid": "3b78ede7-5ee7-4504-a932-2e9d7c3413f2",
-    "title": "Déclencher Event",
+    "title": "Déclencher un Événement",
     "ngcontroller": "EventBoxCtrl as vm",
     "icon": "fa fa-dot-circle-o",
     "type": "box box-success",
