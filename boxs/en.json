@@ -1,7 +1,7 @@
 [
   {
     "uuid": "3b78ede7-5ee7-4504-a932-2e9d7c3413f2",
-    "title": "Create Event",
+    "title": "Create event",
     "ngcontroller": "EventBoxCtrl as vm",
     "icon": "fa fa-dot-circle-o",
     "type": "box box-success",
@@ -34,6 +34,16 @@
     "type": "box box-success",
     "html": "<div class=\"slimScrollDiv\" style=\"position: relative; overflow: hidden; width: auto; height: 250px;\"><div class=\"box-body chat\" id=\"chat-box\" style=\"overflow: scroll; width: auto; height: 250px;\"> <!-- chat item --> <div class=\"item ng-cloak\" ng-repeat=\"message in vm.messages\"> <p class=\"message\"> <a href=\"#\" class=\"name\"> <small class=\"text-muted pull-right\"><i class=\"fa fa-clock-o\"></i> <span am-time-ago=\"message.datetime\"></small> {{message.senderName}} </a> {{message.text}} </p> </div> <!-- /.item --> <span class=\"typing-indicator ng-cloak\" ng-show=\"vm.typing\" ng-model=\"vm.typingText\"> {{ 'CHAT.TYPING' | translate }}... </span> </div><div class=\"slimScrollBar\" style=\"background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 184.911px;\"></div><div class=\"slimScrollRail\" style=\"width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;\"></div></div>",
     "footer": "<div class=\"input-group ng-cloak\"> <input class=\"form-control\" ng-keydown=\"$event.keyCode == 13 ? vm.send(vm.newMessageText) : null\" placeholder=\"{{ 'CHAT.TEXT_BOX_PLACEHOLDER' | translate }}...\" ng-model=\"vm.newMessageText\"> <div class=\"input-group-btn\"> <button type=\"button\" class=\"btn btn-success\" ng-click=\"vm.send(vm.newMessageText);\"><i class=\"fa fa-send\"></i></button> </div> </div>",
+    "view": "dashboard"
+  },
+  {
+    "uuid": "fd751b5c-c3cd-47a0-b878-3feed2503ba7",
+    "title": "Mode of the house",
+    "ngcontroller": "ModeBoxCtrl as vm",
+    "icon": "fa fa-home",
+    "type": "info-box bg-green",
+    "html": "<div class=\"ng-cloak\"><span class=\"info-box-number\">Mode of the house</span><span>Edit</span><br><div class=\"col-md-5 no-padding\"><select class=\"form-control select2 input-sm no-padding\" id=\"selectMode\"><option ng-repeat=\"mode in vm.modes\" value=\"{{mode.code}}\">{{mode.name}}<option></select></div><div class=\"col-md-4 no-padding\"><select class=\"form-control select2 input-sm no-padding\" id=\"selectHouse\"><option ng-repeat=\"house in vm.houses\" value=\"{{house.id}}\">{{house.name}}<option></select></div><div class=\"col-md-3 no-padding\"><button class=\"btn btn-default btn-block btn-flat\" ng-click=\"vm.changeMode();\" >Valider</button></div></div>",
+    "widget": "info-box",
     "view": "dashboard"
   }
 ]
