@@ -2,26 +2,26 @@
     {
         "title":"Meetup Gladys",
         "color":"rgb(0, 115, 183)",
-        "user":"1"
+        "user":"0"
     },
     {
         "title":"Sport",
         "color":"rgb(221, 75, 57)",
-        "user":"1"
+        "user":"0"
     },
     {
         "title":"Coiffeur",
         "color":"rgb(243, 156, 18)",
-        "user":"1"
+        "user":"0"
     },
     {
         "title":"Repos",
         "color":"rgb(96, 92, 168)",
-        "user":"1"
+        "user":"0"
     },
     {
         "title":"Pause déjeuner",
         "color":"rgb(0, 166, 90)",
-        "user":"1"
+        "user":"0"
     }
 ]
