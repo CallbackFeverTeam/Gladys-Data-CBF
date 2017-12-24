@@ -59,9 +59,9 @@
     "title": "To Do list",
     "ngcontroller": "TodolistBoxCtrl as vm",
     "header": "<div class=\"box-header\"><i class=\"ion ion-clipboard\"></i><h3 class=\"box-title\">To Do list</h3></div>",
-    "type": "box <%= Skin.box %>",
+    "type": "box box-primary",
     "body": "<div class=\"box-body\"><ul class=\"todo-list ng-cloak\"><li rel=\"{{task.id}}\" class=\"{{task.checked}}\" ng-repeat=\"task in vm.tasks\"><span class=\"handle\"><i class=\"fa fa-ellipsis-v\"></i><i class=\"fa fa-ellipsis-v\"></i></span><input id=\"todoCheckbox\" rel=\"{{task.id}}\" value=\"\" type=\"checkbox\" ng-checked=\"{{task.checkbox}}\" ><span class=\"text\">{{task.title}}</span><div class=\"tools\" rel=\"{{task.y}}\"><i class=\"fa fa-edit\" ng-click=\"vm.editTask(task.id, task.title)\"></i><i class=\"fa fa-trash-o\" ng-click=\"vm.destroyTask(task.id)\"></i></div></li></ul></div>",
-    "footer": "<div class=\"box-footer clearfix\"><div class=\"col-lg-10\"><input id=\"newTaskTitle\" type=\"text\" class=\"form-control\" placeholder=\"Title\"></div><div class=\"col-lg-2 no-padding\"><button id=\"createTaskButton\" type=\"button\" ng-click=\"vm.createTask()\" class=\"btn btn-default\"><i class=\"fa fa-plus\"></i> Add</button><button id=\"editTaskButton\" type=\"button\" ng-click=\"vm.updateTask()\" style=\"display: none;\" class=\"btn btn-default\"><i class=\"fa fa-edit\"></i> Edit</button></div></div></div>",
+    "footer": "<div class=\"box-footer clearfix\"><div class=\"col-lg-10\"><input id=\"newTaskTitle\" type=\"text\" class=\"form-control\" placeholder=\"Title\"></div><div class=\"col-lg-2 no-padding\"><button id=\"createTaskButton\" type=\"button\" ng-click=\"vm.createTask()\" class=\"btn btn-default\"><i class=\"fa fa-plus\"></i> Add</button><button id=\"editTaskButton\" type=\"button\" ng-click=\"vm.updateTask()\" style=\"display: none;\" class=\"btn btn-default\"><i class=\"fa fa-edit\"></i> Edit</button></div></div>",
     "view": "dashboard"
   }
 ]
