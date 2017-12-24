@@ -52,7 +52,16 @@
     "header": "<span class=\"info-box-icon\"><i class=\"fa fa-home\"></i></span>",
     "type": "info-box bg-green",
     "body": "<div class=\"info-box-content ng-cloak\"><span class=\"info-box-number\">Mode de la maison</span><span>Modifier</span><br><div class=\"col-md-5 no-padding\"><select class=\"form-control select2 input-sm no-padding\" id=\"selectMode\"><option ng-repeat=\"mode in vm.modes\" value=\"{{mode.code}}\">{{mode.name}}<option></select></div><div class=\"col-md-4 no-padding\"><select class=\"form-control select2 input-sm no-padding\" id=\"selectHouse\"><option ng-repeat=\"house in vm.houses\" value=\"{{house.id}}\">{{house.name}}<option></select></div><div class=\"col-md-3 no-padding\"><button class=\"btn btn-default btn-block btn-flat\" ng-click=\"vm.changeMode();\" >Valider</button></div></div>",
-    "widget": "info-box",
+    "view": "dashboard"
+  },
+  {
+    "uuid": "f2c51e60-ab24-45ea-a72d-260185f1a7d4",
+    "title": "Liste de choses à faire",
+    "ngcontroller": "TodolistBoxCtrl as vm",
+    "header": "<div class=\"box-header\"><i class=\"ion ion-clipboard\"></i><h3 class=\"box-title\">Liste de choses à faire</h3></div>",
+    "type": "box <%= Skin.box %>",
+    "body": "<div class=\"box-body\"><ul class=\"todo-list ng-cloak\"><li rel=\"{{task.id}}\" class=\"{{task.checked}}\" ng-repeat=\"task in vm.tasks\"><span class=\"handle\"><i class=\"fa fa-ellipsis-v\"></i><i class=\"fa fa-ellipsis-v\"></i></span><input id=\"todoCheckbox\" rel=\"{{task.id}}\" value=\"\" type=\"checkbox\" ng-checked=\"{{task.checkbox}}\" ><span class=\"text\">{{task.title}}</span><div class=\"tools\" rel=\"{{task.y}}\"><i class=\"fa fa-edit\" ng-click=\"vm.editTask(task.id, task.title)\"></i><i class=\"fa fa-trash-o\" ng-click=\"vm.destroyTask(task.id)\"></i></div></li></ul></div>",
+    "footer": "<div class=\"box-footer clearfix\"><div class=\"col-lg-10\"><input id=\"newTaskTitle\" type=\"text\" class=\"form-control\" placeholder=\"Titre\"></div><div class=\"col-lg-2 no-padding\"><button id=\"createTaskButton\" type=\"button\" ng-click=\"vm.createTask()\" class=\"btn btn-default\"><i class=\"fa fa-plus\"></i> Ajouter</button><button id=\"editTaskButton\" type=\"button\" ng-click=\"vm.updateTask()\" style=\"display: none;\" class=\"btn btn-default\"><i class=\"fa fa-edit\"></i> Editer</button></div></div></div>",
     "view": "dashboard"
   }
 ]
